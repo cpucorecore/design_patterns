@@ -3,4 +3,4 @@ project(design_patterns)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(design_patterns main.cpp creational/abstract_factory/evm.cpp creational/abstract_factory/evm.h creational/abstract_factory/state.cpp creational/abstract_factory/state.h creational/abstract_factory/blockchain.cpp creational/abstract_factory/blockchain.h creational/abstract_factory/factory.cpp creational/abstract_factory/factory.h creational/abstract_factory/name.h creational/abstract_factory/client.cpp creational/abstract_factory/client.h)
+add_executable(design_patterns main.cpp creational/abstract_factory/evm.cpp creational/abstract_factory/evm.h creational/abstract_factory/state.cpp creational/abstract_factory/state.h creational/abstract_factory/blockchain.cpp creational/abstract_factory/blockchain.h creational/abstract_factory/factory.cpp creational/abstract_factory/factory.h creational/abstract_factory/name.h creational/abstract_factory/client.cpp creational/abstract_factory/client.h creational/builder/Product.h creational/builder/ProductBuilder.cpp creational/builder/ProductBuilder.h creational/builder/client.cpp creational/builder/client.h)
